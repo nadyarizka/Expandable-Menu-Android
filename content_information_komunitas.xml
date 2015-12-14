@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="16dp"
+    android:layout_margin="8dp"
     android:orientation="vertical"
     tools:context="com.nourmareizky.parkinsontemplate.Main2Activity">
 
@@ -13,8 +13,8 @@
         android:layout_height="64dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
+        android:background="#fff"
         android:layout_marginTop="15dp"
-        android:background=""
         android:orientation="horizontal">
 
         <TextView
@@ -48,9 +48,86 @@
         android:id="@+id/expandable"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content"
+            android:text="Yayasan ini berdiri tahun 2012 lorem ipsum"
+            android:textColor="@color/colorPrimaryDark" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content"
+            android:text="Yayasan ini berdiri tahun 2012 lorem ipsum"
+            android:textColor="@color/colorPrimaryDark" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content"
+            android:text="Yayasan ini berdiri tahun 2012 lorem ipsum"
+            android:textColor="@color/colorPrimaryDark" />
+
+
+        <Button
+            android:id="@+id/call_YPI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="Call"
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/header1"
+        android:layout_width="fill_parent"
+        android:layout_height="64dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#fff"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="@dimen/color_height"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/icon_parkinson"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/clickme2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:text="Yayasan Parkinson Indonesia"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/expandable1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="15dp"
-        android:background=""
         android:orientation="vertical">
 
         <TextView
@@ -61,12 +138,13 @@
 
 
         <Button
-            android:id="@+id/call_YPI"
+            android:id="@+id/call_YPI1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="55dp"
             android:layout_marginLeft="5dp"
             android:text="Call"
-            android:layout_marginTop="10dp"/>
+            android:textAlignment="center"
+            android:layout_marginTop="3dp"/>
 
     </LinearLayout>
 
